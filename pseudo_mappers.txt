@@ -1,0 +1,22 @@
+Start
+
+Read each line from standard input
+
+For each line do:
+    Remove leading and trailing whitespace from the line
+    Split the line into fields separated by commas
+    
+    Check if there are at least 21 fields
+    If so, proceed to the next step
+    Otherwise, skip the rest of the steps and read the next line
+    
+    Assign the second field to 'date'
+    Assign the thirteenth field to 'wind_speed'
+    Assign the twelfth field to 'relative_humidity'
+    Assign the ninth field to 'dry_bulb_temp'
+    Assign the tenth field to 'dew_point_temp'
+    
+    If 'wind_speed', 'relative_humidity', 'dry_bulb_temp', and 'dew_point_temp' are not empty
+        Output 'date', 'wind_speed', 'relative_humidity', 'dry_bulb_temp', 'dew_point_temp' separated by tabs
+
+End
